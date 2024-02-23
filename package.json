@@ -1,0 +1,24 @@
+{
+  "name": "datchickhub",
+  "version": "1.0.0",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "http-server": "14.1.1",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "npx http-server ."
+  },
+  "dependencies": {
+    "@yandex/ymaps3-cli": "^0.0.11",
+    "yandex": "^1.1.0",
+    "ymaps": "^0.2.1"
+  }
+}
